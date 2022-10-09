@@ -25,7 +25,7 @@ class _CityScreenState extends State<CityScreen> {
             children: <Widget>[
               Align(
                 alignment: Alignment.topLeft,
-                child: FlatButton(
+                child: TextButton(
                   onPressed: () {
                     Navigator.pop(context);
                   },
@@ -39,7 +39,7 @@ class _CityScreenState extends State<CityScreen> {
                 padding: EdgeInsets.all(20.0),
                 child: TextField(
                   style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                   ),
                   decoration: kTextFieldInputDecoration,
                   onChanged: (value) {
@@ -47,7 +47,7 @@ class _CityScreenState extends State<CityScreen> {
                   },
                 ),
               ),
-              FlatButton(
+              TextButton(
                 onPressed: () {
                   Navigator.pop(context, cityName);
                 },

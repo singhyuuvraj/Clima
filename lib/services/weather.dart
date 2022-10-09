@@ -1,8 +1,8 @@
 import 'package:clima/services/location.dart';
 import 'package:clima/services/networking.dart';
 
-const apiKey = 'e72ca729af228beabd5d20e3b7749713';
-const openWeatherMapURL = 'https://api.openweathermap.org/data/2.5/weather';
+const apiKey='90e0a1297b495aa7529f90e4f1f3a022';
+const openWeatherMapURL ='https://api.openweathermap.org/data/2.5/weather';
 
 class WeatherModel {
   Future<dynamic> getCityWeather(String cityName) async {
